@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tornalítica — Comercialización de Promociones Premium</title>
+  <meta name="description" content="Agencia especializada en la comercialización de promociones inmobiliarias premium. Convertimos tu inversión en publicidad en unidades vendidas. Madrid, Costa del Sol, Baleares y Canarias.">
+  <meta name="keywords" content="comercialización inmobiliaria, obra nueva, promotora, real estate marketing, Madrid, Marbella, Costa del Sol">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tornalítica — Comercialización de Promociones Premium">
+  <meta property="og:description" content="Convertimos tu inversión en publicidad en unidades vendidas. Y lo medimos en euros.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡</text></svg>">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- ============================================
+       HEADER / NAVIGATION
+       ============================================ -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Tornalítica - Inicio"><img src="assets/img/logo-tornalitica.svg" alt="Tornalítica" class="logo-img"></a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="#problema">El Problema</a>
+        <a href="#casos">Resultados</a>
+        <a href="#servicios">Qué Hacemos</a>
+        <a href="#nosotros">Por Qué Nosotros</a>
+        <a href="mailto:pedro.castro@tornalitica.com?subject=Solicitud%20de%20an%C3%A1lisis%20de%20promoci%C3%B3n" class="nav-cta" id="nav-cta-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Hablemos
+        </a>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Navegación móvil">
+    <a href="#problema">El Problema</a>
+    <a href="#casos">Resultados</a>
+    <a href="#servicios">Qué Hacemos</a>
+    <a href="#nosotros">Por Qué Nosotros</a>
+    <a href="mailto:pedro.castro@tornalitica.com?subject=Solicitud%20de%20an%C3%A1lisis%20de%20promoci%C3%B3n" class="nav-cta">Hablemos</a>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/img/hero-bg.png" alt="" width="1920" height="1080" fetchpriority="high">
+    </div>
+    <div class="hero-decoration" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-label">
+          Marketing Digital · Obra Nueva
+        </div>
+
+        <h1 class="hero-title">
+          Vende tu promoción <em>más rápido.</em><br>
+          Con compradores reales, no con curiosos.
+        </h1>
+
+        <p class="hero-subtitle">
+          Agencia especializada en marketing digital para comercializar obra nueva. Llenamos tu funnel de compradores cualificados y tu agenda comercial de visitas reales, mes a mes.
+        </p>
+
+        <div class="hero-actions">
+          <a href="mailto:pedro.castro@tornalitica.com?subject=Solicitud%20de%20an%C3%A1lisis%20de%20promoci%C3%B3n" class="btn-primary" id="hero-cta-btn">
+            Solicita un análisis de tu promoción
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <p class="hero-microcopy">
+          Sin compromiso. Antes de que inviertas un euro, te decimos si podemos acelerar tu venta.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PROBLEM SECTION
+       ============================================ -->
+  <section class="problem section-padding" id="problema">
+    <div class="container">
+      <div class="problem-grid">
+        <div class="problem-visual reveal">
+          <div class="problem-visual-card">
+            <div class="cost-counter" id="cost-counter" aria-live="polite">
+              0 €
+            </div>
+            <div class="cost-counter-label">Coste por cada mes sin vender</div>
+
+            <div class="clock-items">
+              <div class="clock-item">
+                <span class="clock-item-icon" aria-hidden="true">⏱</span>
+                <span class="clock-item-text">Financiación corriendo</span>
+              </div>
+              <div class="clock-item">
+                <span class="clock-item-icon" aria-hidden="true">📉</span>
+                <span class="clock-item-text">Costes de estructura</span>
+              </div>
+              <div class="clock-item">
+                <span class="clock-item-icon" aria-hidden="true">📅</span>
+                <span class="clock-item-text">Calendario sin esperar</span>
+              </div>
+              <div class="clock-item">
+                <span class="clock-item-icon" aria-hidden="true">🔄</span>
+                <span class="clock-item-text">ROI sin atribuir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="problem-text">
+          <span class="section-label reveal">El Problema</span>
+          <h2 class="section-title reveal reveal-delay-1">
+            Cada mes que tu promoción no vende, te cuesta dinero.
+          </h2>
+          <p class="reveal reveal-delay-2">
+            La obra nueva tiene un reloj corriendo: financiación, costes de estructura y un calendario que no espera. Y aun así, la mayoría de promociones se comercializan dependiendo de portales saturados que entregan los mismos contactos de baja intención a todo el mercado.
+          </p>
+          <p class="reveal reveal-delay-3">
+            El resultado: comerciales persiguiendo curiosos, visitas que no se cierran y una inversión publicitaria cuyo retorno nadie sabe atribuir a unidades vendidas.
+          </p>
+          <p class="reveal reveal-delay-4">
+            Nosotros construimos un canal propio que atrae al comprador adecuado para tu producto, lo cualifica antes de que llegue a tu equipo y se mide por lo único que importa: el ritmo al que se vacía tu promoción.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CASES SECTION
+       ============================================ -->
+  <section class="cases section-padding" id="casos">
+    <div class="container">
+      <div class="cases-header">
+        <span class="section-label reveal">Casos de Éxito</span>
+        <h2 class="section-title reveal reveal-delay-1">
+          Esto no es lo que prometemos.<br>Es lo que ya hemos vendido.
+        </h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Resultados atribuibles a campañas reales en promociones premium.
+        </p>
+      </div>
+
+      <div class="cases-grid">
+        <!-- Case 1 -->
+        <article class="case-card reveal" id="case-sunrise-golf">
+          <div class="case-card-project">Sunrise Golf Residences · Mijas</div>
+          <div class="case-card-metric" id="metric-1">700.000 €</div>
+          <div class="case-card-metric-label">Facturación atribuible en 30 días</div>
+          <p class="case-card-description">
+            Aceleramos la comercialización desde el primer mes captando compradores con intención real. Velocidad de venta, no volumen de ruido.
+          </p>
+        </article>
+
+        <!-- Case 2 -->
+        <article class="case-card reveal reveal-delay-1" id="case-sunrise-bay">
+          <div class="case-card-project">Sunrise Bay · Mallorca</div>
+          <div class="case-card-metric" id="metric-2">1,7 M€</div>
+          <div class="case-card-metric-label">Facturación acumulada (a junio 2026)</div>
+          <p class="case-card-description">
+            Un sistema sostenido en el tiempo que mantiene el funnel lleno y la promoción avanzando, mes tras mes.
+          </p>
+        </article>
+
+        <!-- Case 3 -->
+        <article class="case-card reveal reveal-delay-2" id="case-mazabi">
+          <div class="case-card-project">Mazabi · Obra nueva</div>
+          <div class="case-card-metric" id="metric-3">3–5 visitas/semana</div>
+          <div class="case-card-metric-label">Agenda comercial constante</div>
+          <p class="case-card-description">
+            Agenda comercial previsible: tus comerciales dedican su tiempo a cerrar, no a perseguir.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SERVICES SECTION
+       ============================================ -->
+  <section class="services section-padding" id="servicios">
+    <div class="container">
+      <div class="services-header">
+        <span class="section-label reveal">Qué Hacemos</span>
+        <h2 class="section-title reveal reveal-delay-1">
+          No vendemos campañas.<br>Comercializamos tu promoción.
+        </h2>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal" id="service-captacion">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/><circle cx="12" cy="12" r="1"/></svg>
+          </div>
+          <h3 class="service-title">Captación de comprador cualificado</h3>
+          <p class="service-description">
+            Atraemos al perfil que de verdad puede comprar tu producto y lo filtramos antes de que llegue a tu equipo. Menos volumen, más intención.
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal reveal-delay-1" id="service-agenda">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/></svg>
+          </div>
+          <h3 class="service-title">Agenda de visitas previsible</h3>
+          <p class="service-description">
+            Automatizamos seguimiento y cualificación para que a tus comerciales solo lleguen visitas reales, agendadas y listas para cerrar.
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal reveal-delay-2" id="service-atribucion">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/><line x1="3" y1="20" x2="21" y2="20"/></svg>
+          </div>
+          <h3 class="service-title">Atribución a unidades vendidas</h3>
+          <p class="service-description">
+            Cada euro de inversión se mide contra facturación y visitas atribuibles. Sabes exactamente qué acelera tu venta.
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal reveal-delay-3" id="service-marca">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 class="service-title">Una marca a la altura del producto</h3>
+          <p class="service-description">
+            Estética y registro acordes a un comprador de alto patrimonio. Tu promoción, comunicada como el activo premium que es.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       WHY SECTION
+       ============================================ -->
+  <section class="why section-padding" id="nosotros">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-text">
+          <span class="section-label reveal">Por Qué Tornalítica</span>
+          <h2 class="section-title reveal reveal-delay-1">
+            Conocemos el ciclo de venta de una promoción. No improvisamos.
+          </h2>
+          <p class="reveal reveal-delay-2">
+            No somos una agencia generalista. Trabajamos exclusivamente con promotoras e inmobiliarias premium en Madrid, Marbella y Málaga, y entendemos lo que significa un calendario de obra, una absorción lenta o una unidad sin vender.
+          </p>
+          <p class="reveal reveal-delay-3">
+            Por eso medimos nuestro trabajo en euros facturados y en el ritmo al que avanza tu promoción.
+          </p>
+
+          <ul class="why-list reveal reveal-delay-4">
+            <li>
+              <span class="why-list-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Foco exclusivo en real estate premium (15–100 unidades).</span>
+            </li>
+            <li>
+              <span class="why-list-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Resultados atribuibles, reportados con transparencia.</span>
+            </li>
+            <li>
+              <span class="why-list-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>Modelo alineado: parte de nuestra retribución va ligada a tus ventas.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="why-visual reveal">
+          <div class="why-image-wrapper">
+            <img src="assets/img/case-study.png" alt="Promoción inmobiliaria premium en la Costa del Sol" width="600" height="400" loading="lazy">
+            <div class="why-image-overlay" aria-hidden="true"></div>
+          </div>
+
+          <div class="why-stats">
+            <div class="why-stat">
+              <div class="why-stat-value" id="stat-revenue">+2,4M€</div>
+              <div class="why-stat-label">Facturación atribuible</div>
+            </div>
+            <div class="why-stat">
+              <div class="why-stat-value">100%</div>
+              <div class="why-stat-label">Atribución transparente</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CTA FINAL SECTION
+       ============================================ -->
+  <section class="cta-final section-padding" id="contacto">
+    <div class="container">
+      <div class="cta-decoration" aria-hidden="true"></div>
+      <div class="cta-final-content">
+        <span class="section-label reveal">Hablemos</span>
+        <h2 class="section-title reveal reveal-delay-1">
+          ¿Cuántas unidades te quedan por vender este año?
+        </h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Analizamos tu promoción, tu mercado y tu ritmo de venta actual, y te decimos con honestidad si podemos acelerarlo. Sin compromiso y sin coste.
+        </p>
+
+        <div class="hero-actions reveal reveal-delay-3" style="justify-content: center;">
+          <a href="mailto:pedro.castro@tornalitica.com?subject=Solicitud%20de%20an%C3%A1lisis%20de%20promoci%C3%B3n" class="btn-primary" id="cta-final-btn">
+            Solicita tu análisis
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <p class="hero-microcopy reveal reveal-delay-4">
+          Trabajamos con un número reducido de promociones a la vez para garantizar resultados.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><img src="assets/img/logo-tornalitica.svg" alt="Tornalítica" class="footer-logo-img"></div>
+          <p class="footer-legal">
+            Resultados de clientes reales. Cifras de facturación y agenda atribuibles a campañas gestionadas por Tornalítica. Madrid · Costa del Sol · Córdoba.
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <a href="mailto:pedro.castro@tornalitica.com" id="footer-email-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            pedro.castro@tornalitica.com
+          </a>
+          <a href="https://wa.me/34648847599" target="_blank" rel="noopener noreferrer" id="footer-whatsapp-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +34 648 847 599
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tornalítica. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       WHATSAPP FLOATING BUTTON
+       ============================================ -->
+  <a href="https://wa.me/34648847599?text=Hola%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20c%C3%B3mo%20pod%C3%A9is%20ayudarme%20con%20mi%20promoci%C3%B3n."
+     class="whatsapp-float"
+     id="whatsapp-float-btn"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
